@@ -1,0 +1,24 @@
+{{page-title "IH Demo"}}
+
+<div id="app" class="container">
+  <div class="header">
+    {{!-- Your header content --}}
+    <a href="/" class="logo">
+      <img src="/IH-logo.svg" style="height: 24px; width: 24px;">
+      <img class="logo-text" src="/IH-logo-text.svg">
+    </a>
+  </div>
+  <div class="avatar">
+    <img src="{{this.model.profile.display_picture}}" class="user-link">
+  </div>
+  <div class="chat-ui-wrapper">
+    <ChatWidget @id="UoczKLBBvEyBFEF7"
+            @username="{{this.model.username}}"
+            @profile={{this.model.profile}}
+            @route={{this.model.route}}
+            @height="100%"
+    />
+  </div>
+</div>
+
+{{outlet}}
