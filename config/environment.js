@@ -4,7 +4,7 @@ module.exports = function (environment) {
   const ENV = {
     modulePrefix: 'chatkitty-indie-hackers-demo',
     environment,
-    rootURL: '/',
+    rootURL: '/chatkitty-indie-hackers-demo/',
     locationType: 'history',
     EmberENV: {
       EXTEND_PROTOTYPES: false,
