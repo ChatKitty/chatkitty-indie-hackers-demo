@@ -25,7 +25,7 @@
     "test:ember": "ember test"
   },
   "dependencies": {
-    "@chatkitty/chat-ui-ember": "^1.0.0"
+    "@chatkitty/chat-ui-ember": "^1.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.22.20",
