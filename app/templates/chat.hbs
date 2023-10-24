@@ -9,15 +9,10 @@
     </a>
   </div>
   <div class="avatar">
-    <img src="{{this.model.profile.display_picture}}" class="user-link">
+    <img src="{{this.model.profile.displayPicture}}" class="user-link">
   </div>
   <div class="chat-ui-wrapper">
-    <ChatWidget @id="UoczKLBBvEyBFEF7"
-            @username="{{this.model.username}}"
-            @profile={{this.model.profile}}
-            @route={{this.model.route}}
-            @height="100%"
-    />
+    <div id="chat-ui"></div>
   </div>
 </div>
 
