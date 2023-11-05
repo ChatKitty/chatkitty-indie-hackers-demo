@@ -49,7 +49,7 @@ export default class ChatRoute extends Route {
       username: currentUser,
       route: {
         name: 'direct-messages',
-        chatUsers: [username],
+        users: [username],
       },
       profile: userMap[currentUser],
     };
